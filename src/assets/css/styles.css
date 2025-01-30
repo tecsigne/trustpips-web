@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "space_grotesk";
+  src: url("../fonts/space_grotesk/SpaceGrotesk-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/Poppins/Poppins-Medium.ttf");
+}
+
+@theme {
+  --font-space-grotesk: space_grotesk, san-serif;
+  --font-poppins: poppins, san-serif;
+
+  --color-primary-50: rgba(0, 244, 32, 0.05);
+  --color-primary-100: rgba(0, 244, 32, 0.1);
+  --color-primary-200: rgba(0, 244, 32, 0.2);
+  --color-primary-300: rgba(0, 244, 32, 0.3);
+  --color-primary-400: rgba(0, 244, 32, 0.4);
+  --color-primary-500: rgba(0, 244, 32, 0.5);
+  --color-primary-600: rgba(0, 244, 32, 0.6);
+  --color-primary-700: rgba(0, 244, 32, 0.7);
+  --color-primary-800: rgba(0, 244, 32, 0.8);
+  --color-primary-900: rgba(0, 244, 32, 0.9);
+
+  --color-primary-light-50: rgba(194, 205, 253, 0.05);
+  --color-primary-light-100: rgba(194, 205, 253, 0.1);
+  --color-primary-light-200: rgba(194, 205, 253, 0.2);
+  --color-primary-light-300: rgba(194, 205, 253, 0.3);
+  --color-primary-light-400: rgba(194, 205, 253, 0.4);
+  --color-primary-light-500: rgba(194, 205, 253, 0.5);
+  --color-primary-light-600: rgba(194, 205, 253, 0.6);
+  --color-primary-light-700: rgba(194, 205, 253, 0.7);
+  --color-primary-light-800: rgba(194, 205, 253, 0.8);
+  --color-primary-light-900: rgba(194, 205, 253, 0.9);
+
+  --color-primary-lighter-50: rgba(255, 255, 255, 0.05);
+  --color-primary-lighter-100: rgba(255, 255, 255, 0.1);
+  --color-primary-lighter-200: rgba(255, 255, 255, 0.2);
+  --color-primary-lighter-300: rgba(255, 255, 255, 0.3);
+  --color-primary-lighter-400: rgba(255, 255, 255, 0.4);
+  --color-primary-lighter-500: rgba(255, 255, 255, 0.5);
+  --color-primary-lighter-600: rgba(255, 255, 255, 0.6);
+  --color-primary-lighter-700: rgba(255, 255, 255, 0.7);
+  --color-primary-lighter-800: rgba(255, 255, 255, 0.8);
+  --color-primary-lighter-900: rgba(255, 255, 255, 0.9);
+
+  --color-secondary-50: rgba(255, 229, 180, 0.05);
+  --color-secondary-100: rgba(255, 229, 180, 0.1);
+  --color-secondary-200: rgba(255, 229, 180, 0.2);
+  --color-secondary-300: rgba(255, 229, 180, 0.3);
+  --color-secondary-400: rgba(255, 229, 180, 0.4);
+  --color-secondary-500: rgba(255, 229, 180, 0.5);
+  --color-secondary-600: rgba(255, 229, 180, 0.6);
+  --color-secondary-700: rgba(255, 229, 180, 0.7);
+  --color-secondary-800: rgba(255, 229, 180, 0.8);
+  --color-secondary-900: rgba(255, 229, 180, 0.9);
+
+  --color-secondary-darker-50: rgba(121, 89, 0, 0.05);
+  --color-secondary-darker-100: rgba(121, 89, 0, 0.1);
+  --color-secondary-darker-200: rgba(121, 89, 0, 0.2);
+  --color-secondary-darker-300: rgba(121, 89, 0, 0.3);
+  --color-secondary-darker-400: rgba(121, 89, 0, 0.4);
+  --color-secondary-darker-500: rgba(121, 89, 0, 0.5);
+  --color-secondary-darker-600: rgba(121, 89, 0, 0.6);
+  --color-secondary-darker-700: rgba(121, 89, 0, 0.7);
+  --color-secondary-darker-800: rgba(121, 89, 0, 0.8);
+  --color-secondary-darker-900: rgba(121, 89, 0, 0.9);
+
+  --color-neutral-50: rgba(3, 2, 7, 0.05);
+  --color-neutral-100: rgba(3, 2, 7, 0.1);
+  --color-neutral-200: rgba(3, 2, 7, 0.2);
+  --color-neutral-300: rgba(3, 2, 7, 0.3);
+  --color-neutral-400: rgba(3, 2, 7, 0.4);
+  --color-neutral-500: rgba(3, 2, 7, 0.5);
+  --color-neutral-600: rgba(3, 2, 7, 0.6);
+  --color-neutral-700: rgba(3, 2, 7, 0.7);
+  --color-neutral-800: rgba(3, 2, 7, 0.8);
+  --color-neutral-900: rgba(3, 2, 7, 0.9);
+}
+
+@layer utilities {
+  .w-calc-1 {
+    width: calc(100% - 2em);
+  }
+
+  .w-calc-vw-1 {
+    width: calc(100vw - 2em);
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: rgba(3, 2, 7, 1);
+  color: rgba(255, 255, 255, 1);
+  width: 100%;
+  min-width: 302px;
+  font-family: space_grotesk;
+  font-size: 1rem;
+  overflow-x: hidden;
+}
