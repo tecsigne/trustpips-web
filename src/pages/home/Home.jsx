@@ -1,5 +1,13 @@
+import { Banner, Contact } from "./inner";
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <Banner />
+
+      <Contact />
+    </>
+  );
 };
 
 export default Home;

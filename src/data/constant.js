@@ -24,7 +24,7 @@ export const RouteNames = {
     Services: {
       path: "/services",
       label: "Services",
-      showIn: ["nav", "mobile"],
+      showIn: ["nav", "mobile", "footer-nav"],
       Icon: ``,
       isBordered: false,
       hasBackground: false,
