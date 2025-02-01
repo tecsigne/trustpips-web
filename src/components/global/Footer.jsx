@@ -11,7 +11,7 @@ const Footer = () => {
       }
     >
       <section className="w-full max-w-4xl mx-auto flex flex-col items-center gap-4">
-        <article className="w-full flex gap-4 justify-between max-[650px]:flex-col items-center">
+        <article className="w-full flex flex-col gap-4 justify-between min-[650px]:flex-row items-center">
           <div>
             <p className="flex items-center gap-1">
               <span>

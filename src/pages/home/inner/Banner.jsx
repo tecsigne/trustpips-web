@@ -19,7 +19,7 @@ const Banner = () => {
             voluptatibus optio ullam adipisci dignissimos natus!
           </p>
 
-          <ul className="flex gap-12 items-center mx-auto mt-2">
+          <ul className="flex gap-8 items-center mx-auto mt-2">
             <li>
               <Link
                 to={"/"}

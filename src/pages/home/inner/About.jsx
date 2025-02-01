@@ -18,7 +18,7 @@ const About = () => {
           </p>
         </article>
 
-        <div className="w-full h-[200px] min-sm:h-[300px] bg-red-700">
+        <div className="w-full h-[200px] min-sm:h-[300px]">
           <video
             autoPlay
             loop
