@@ -1,9 +1,11 @@
-import { Banner, Contact } from "./inner";
+import { About, Banner, Contact } from "./inner";
 
 const Home = () => {
   return (
     <>
       <Banner />
+
+      <About />
 
       <Contact />
     </>
