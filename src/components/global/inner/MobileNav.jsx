@@ -8,7 +8,7 @@ const MobileNav = () => {
 
   return (
     <section
-      className={`bg-neutral-900 w-calc-vw-1 h-[550px] p-4 flex flex-col justify-between rounded-3xl`}
+      className={`bg-neutral-950 w-calc-vw-1 h-[550px] p-4 flex flex-col justify-between rounded-3xl`}
     >
       <button
         type="button"
