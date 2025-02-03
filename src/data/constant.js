@@ -178,3 +178,13 @@ export const RouteNames = {
   footerSocialRoutes = allRoutes.filter((route) =>
     route.showIn.includes("footer-social")
   );
+
+`About TrutPips
+
+At TrutPips, we are dedicated to empowering traders on their journey toward financial independence and the ability to trade full-time. We understand that every trader is unique, and that’s why we prioritize personalized development in our approach.
+
+Our mission is to help traders achieve their individual goals, recognizing that when 100 people learn the same trading strategy, the outcomes can vary significantly. Trading is not just about techniques; it’s a deeply subjective practice influenced by emotional intelligence and personal insight.
+
+We seek to identify those with the potential to excel in trading—individuals who possess both the skills and the emotional resilience necessary to thrive. Our goal is to nurture these talents and transform them into successful career traders.
+
+Join us at TrutPips, where we focus on making better traders and fostering a community of growth and success.`;

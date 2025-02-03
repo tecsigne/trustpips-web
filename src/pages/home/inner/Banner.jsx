@@ -9,14 +9,12 @@ const Banner = () => {
     >
       <article className="w-full max-w-4xl flex flex-col justify-center items-center gap-8">
         <div className="text-center grid gap-4">
-          <h3 className="text-2xl sm:text-3xl">
-            Lorem ipsum dolor, sit amet consectetur adipisicing Consectetur.
-          </h3>
+          <h3 className="text-2xl sm:text-3xl">All-In-One Place For Trading</h3>
 
           <p className="text-base sm:text-lg">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-            fuga hic odit ipsa praesentium, ea, expedita magnam libero, nulla
-            voluptatibus optio ullam adipisci dignissimos natus!
+            We empower traders on their journey to financial independence,
+            offering personalized development to meet each trader's unique
+            needs.
           </p>
 
           <ul className="flex gap-8 items-center mx-auto mt-2">

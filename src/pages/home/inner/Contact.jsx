@@ -11,8 +11,8 @@ const Contact = () => {
       <section className="w-full max-w-lg">
         <article className="w-full flex flex-col items-center justify-center gap-4">
           <p className="text-center text-lg md:text-xl text-primary-lighter-900 max-w-xl">
-            Subscribe to learn how to 100x your capital and become wealthier for
-            our signals.
+            Subscribe for on-demand lessons, trade ideas, trading challenges and
+            weekly newsletters packed with actionable information.
           </p>
 
           <form className="w-full max-w-xs md:max-w-md ">

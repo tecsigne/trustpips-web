@@ -1,20 +1,20 @@
-import { SectionTitle } from "../../../components";
+import { PageContainer, SectionTitle } from "../../../components";
 import { homeData } from "../../../data/home";
 
 const About = () => {
   return (
-    <section className={"w-calc-1 max-w-5xl mx-auto py-12 grid gap-4"}>
+    <PageContainer className={"max-w-5xl mx-auto py-12 grid gap-4"}>
       <SectionTitle title={"About Us"} />
 
-      <div className="w-full flex flex-col sm:flex-row gap-8">
+      <div className="w-full flex flex-col md:flex-row gap-8">
         <article className="w-full">
-          <p className="text-left max-w-sm  ">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
-            veritatis incidunt impedit! Assumenda dolor voluptatibus earum quod,
-            itaque quo corrupti? Hic iure est iusto incidunt natus accusamus
-            minus numquam deleniti nesciunt! Inventore tempora harum veniam
-            illum, maiores officiis reiciendis suscipit at itaque blanditiis,
-            ullam deleniti eos autem, ex sapiente sunt?
+          <p className="w-full md:max-w-lg text-left">
+            At TrustPips, we are dedicated to empowering traders on their
+            journey toward financial independence and the ability to trade
+            full-time. Recognizing that every trader is unique, we prioritize
+            personalized development. Our tailored approach ensures that each
+            individual receives the guidance and support needed to thrive in the
+            trading world.
           </p>
         </article>
 
@@ -31,7 +31,7 @@ const About = () => {
           </video>
         </div>
       </div>
-    </section>
+    </PageContainer>
   );
 };
 
