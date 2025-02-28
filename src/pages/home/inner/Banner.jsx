@@ -20,14 +20,17 @@ const Banner = () => {
           <ul className="flex gap-8 items-center mx-auto mt-2">
             <li>
               <Link
-                to={"/"}
+                to={"/about"}
                 className="bg-transparent py-2 border-b border-b-primary-900"
               >
                 Learn More
               </Link>
             </li>
             <li>
-              <Link to={"/"} className="bg-primary-900 py-2 px-6 rounded-2xl">
+              <Link
+                to={"/contact"}
+                className="bg-primary-900 py-2 px-6 rounded-2xl"
+              >
                 Contact Us
               </Link>
             </li>

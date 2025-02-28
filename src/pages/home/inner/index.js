@@ -1,5 +1,6 @@
 import About from "./About";
 import Banner from "./Banner";
-import Contact from "./Contact";
+import Service from "./Service";
+import Testimonials from "./Testimonials";
 
-export { Banner, About, Contact };
+export { Banner, About, Service, Testimonials };

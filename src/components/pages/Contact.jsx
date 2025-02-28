@@ -1,7 +1,7 @@
 import { FaDiscord, FaInstagram, FaTelegram, FaYoutube } from "react-icons/fa";
-import { PageContainer } from "../../../components";
+import PageContainer from "../global/PageContainer";
 
-const Contact = () => {
+const PagesContact = () => {
   return (
     <PageContainer
       className={
@@ -63,4 +63,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default PagesContact;

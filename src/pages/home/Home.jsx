@@ -1,4 +1,5 @@
-import { About, Banner, Contact } from "./inner";
+import { PagesContact } from "../../components/pages";
+import { About, Banner, Service, Testimonials } from "./inner";
 
 const Home = () => {
   return (
@@ -7,7 +8,11 @@ const Home = () => {
 
       <About />
 
-      <Contact />
+      <Service />
+
+      <Testimonials />
+
+      <PagesContact />
     </>
   );
 };
