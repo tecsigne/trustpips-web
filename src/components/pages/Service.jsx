@@ -1,6 +1,7 @@
-import { PageContainer, SectionTitle } from "../../../components";
-import { ServiceCard } from "../../../components/pages";
-import { ServicesData } from "../../../data/services";
+import { ServicesData } from "../../data/services";
+import PageContainer from "../global/PageContainer";
+import SectionTitle from "../global/SectionTitle";
+import ServiceCard from "./ServiceCard";
 
 const Service = () => {
   return (

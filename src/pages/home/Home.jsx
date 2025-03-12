@@ -1,5 +1,5 @@
-import { PagesContact } from "../../components/pages";
-import { About, Banner, Service, Testimonials } from "./inner";
+import { PagesContact, Service, Testimonial } from "../../components/pages";
+import { About, Banner } from "./inner";
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
 
       <Service />
 
-      <Testimonials />
+      <Testimonial />
 
       <PagesContact />
     </>
